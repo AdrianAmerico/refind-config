@@ -50,15 +50,15 @@ Example of a refind.conf supporting OpenCore, Arch and Windows:
 ```text
 timeout 10
 
-menuentry "trashOS" {
+menuentry "MacOs" {
     loader \EFI\OC\Bootstrap\Bootstrap.efi
 }
 
-menuentry "i uSe aRcH bTw" {
+menuentry "Ubuntu" {
     loader \EFI\arch\grubx64.efi
 }
 
-menuentry "Winblows" {
+menuentry "Windows" {
     loader \EFI\Microsoft\Boot\bootmgfw.efi
 }
 
